@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie&amp;display=swap');
+*{
+	margin: 0;
+	padding:0;
+}
+
+
+.wall
+{
+	
+	width:100%;
+	background-color: #ffff00;	
+}
+.title 
+{
+	font-family: 'Elsie', cursive;
+	float:left ;
+	color: #332980;
+}
+.phone-num
+{
+	padding:21px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:right;
+	color:#332980;
+}
+
+.phone-num a, .footer a
+{
+
+	text-decoration:none;
+	color:#332980;
+
+}
+.footer a
+{
+	color: white;
+}
+.image-service
+
+{
+	-border:1px solid black;
+}
+
+
+.image-service img
+{
+	margin-top:5%;
+	margin-bottom:5%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.map
+{
+	
+	margin-top:10%;
+	margin-bottom:5%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+}
+.content
+{
+	font-size:12px;
+	text-align:justify;
+	width:80%;
+	margin-left:10%;
+	font-weight:bold;
+	color: #7f7f77;
+
+}
+
+.footer
+{
+	background-color:#332980;
+	color:white;
+	padding:2%;
+	font-weight:bold;
+}
+
+
+@media screen and (max-width: 480px)
+{
+	.content
+	{
+		font-size:14px;
+	}
+    .footer-content
+    {
+    	margin-bottom:2%;        
+    }
+    .title 
+    {
+    	font-size:16px; 
+    }
+
+    
+
+
+}
